@@ -31,6 +31,9 @@
               {
                 "input": "src/theme/fonts.scss"
               }
+              {
+                "input": "src/theme/fonts.scss"
+              }              
             ],
             "scripts": []
           },
