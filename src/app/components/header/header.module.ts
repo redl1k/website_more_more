@@ -5,12 +5,6 @@ import { IonicModule } from '@ionic/angular';
 import { TranslateModule } from '@ngx-translate/core';
 import { HeaderComponent } from './header.component';
 
-// @Injectable()
-// export class HeaderService {
-
-//   constructor() { }
-
-// }
 @NgModule({
   imports: [
     CommonModule,
