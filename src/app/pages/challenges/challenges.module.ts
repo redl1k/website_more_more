@@ -6,7 +6,7 @@ import { TranslateModule } from '@ngx-translate/core';
 
 import { ChallengesPageRoutingModule } from './challenges-routing.module';
 
-import { ChallengesPage } from './challenges.page'
+import { ChallengesComponent } from './challenges.component';
 
 @NgModule({
   imports: [
@@ -14,7 +14,7 @@ import { ChallengesPage } from './challenges.page'
     IonicModule,
     ChallengesPageRoutingModule
   ],
-  declarations: [ ChallengesPage ],
+  declarations: [ ChallengesComponent ],
 
 })
-export class ChallengesPageModule{}
+export class ChallengesPage{}

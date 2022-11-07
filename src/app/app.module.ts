@@ -43,6 +43,6 @@ export function createTranslationLoader(http: HttpClient){
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy}
 
   ],
-  bootstrap: [AppComponent]
+  // bootstrap: [AppComponent]
 })
 export class AppModule { }
