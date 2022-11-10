@@ -1,3 +1,4 @@
+import { HeaderModule } from './../../components/header/header.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -12,7 +13,9 @@ import { ChallengesComponent } from './challenges.component';
   imports: [
     CommonModule,
     IonicModule,
-    ChallengesPageRoutingModule
+    ChallengesPageRoutingModule,
+
+    HeaderModule
   ],
   declarations: [ ChallengesComponent ],
 
